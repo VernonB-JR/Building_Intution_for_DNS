@@ -1,7 +1,7 @@
 ![image](https://user-images.githubusercontent.com/109401839/212763428-5ec473e9-9048-4cc0-bf1b-0133ac4db278.png)
 
 <h1>Building Intuition for DNS</h1>
-Welcome back! In this tutorial, we will build a solid fundamental understanding of DNS. <br />
+Welcome! In this tutorial, we will build a solid fundamental understanding of DNS. <br />
 
 <h2>Environments and Technologies Used</h2>
 
@@ -20,7 +20,7 @@ Welcome back! In this tutorial, we will build a solid fundamental understanding 
 
 ![cloudflare-1111](https://user-images.githubusercontent.com/109401839/213241753-8772baf2-c4fd-4721-827b-c86fb18ae13c.gif)
 
-What is DNS? The Domain Name System (DNS) is the phonebook of the Internet. It basically allows us to convert IP addresses from numbers (8.8.8.8) to readable addresses like (www.google.com). Imagine, when using your smartphone and we ask our built in assistant, "Hey Siri, call USPS nearby" and siri then finds that address, converts it to a number, and connects us to the USPS. 
+What is DNS? The Domain Name System (DNS) is the phonebook of the Internet. It basically allows us to convert IP addresses from numbers (8.8.8.8) to readable addresses like (www.google.com). Imagine, when using your smartphone and we ask our built in assistant, "Hey Siri, call USPS nearby" and siri then finds that address, converts it into a number, and connects us to the USPS. 
 
 <h2>Actions and Observations</h2>
 **A-Record Exercise**
@@ -33,7 +33,7 @@ What is DNS? The Domain Name System (DNS) is the phonebook of the Internet. It b
 4. **Nslookup “mainframe” notice that it fails (no DNS record)**
 5. **Create a DNS A-record on DC-1 for “mainframe” and have it point to DC-1’s Private IP address
 
-Be sure to spellcheck everything, when I did it for the first time I mispelled "mainframe" as "mainfame" and could not figure out why it was not working. Lesson Learned. 
+Be sure to spellcheck everything, when I did it for the first time I mispelled "mainframe" as "mainfame" and could not figure out why it was not working. Lesson Learned. Make sure you don't have to learn the same and verify. 
 
 ![2023-01-18 10 12 45 coursecareers com ef528124c90b](https://user-images.githubusercontent.com/109401839/213230206-6f8bb790-3ed4-4a81-b431-d84fd177b8b1.jpg)
 
